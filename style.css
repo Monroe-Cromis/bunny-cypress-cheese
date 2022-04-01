@@ -1,0 +1,124 @@
+*{
+box-sizing: border-box
+
+}
+
+main{
+    border: 1px solid black;
+    background-color: yellow;
+    display:flex;
+    min-height: 90vh;
+    justify-content: space-between;
+    background-color: maroon;
+    flex-wrap: wrap;
+
+}
+
+body{
+    margin: 0;
+    background-color: lemonchiffon;
+
+}
+
+.main-header {
+    display: flex;
+    margin: 0;
+    flex-grow: 1;
+    background-color: orange;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0E1336;
+    font-kerning: 50px;
+    font-size: 50px;
+    -ms-flex-item-align: center;
+  
+}
+
+.nav{
+    justify-content: center;
+    display: flex;
+    margin-top: 500px;
+
+
+}
+.nav-list{
+    background: white;
+    box-shadow: 0px 0px 10px (gray);
+    border-radius:7px; 
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    width: fit-content;
+    flex-wrap: wrap-reverse;
+}
+#center-this-box{
+    width: auto;
+    display: inline-block;
+    width: max-content;
+    position: fixed;
+    padding-top: -100px;
+    margin-top: 155px;
+    clear:both;
+
+}
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    transition: all 200ms ease-in;
+  }
+
+.section-2{
+    display: flex;
+    margin: 0;
+    flex-grow: 1;
+    background-color: maroon;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0E1336;
+    font-kerning: 50px;
+    font-size: 50px;
+    -ms-flex-item-align: center;
+}
+
+.about{
+    display: flex;
+    margin: 0;
+    flex-grow: 1;
+    background-color: purple;
+    justify-content: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #0E1336;
+    font-kerning: 50px;
+    font-size: 50px;
+    flex-direction: row;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 850px)
+{  .main-header{
+    font-size: 40px;
+    background-color: #3E52DC;
+    color: #D9DF29;
+    animation: 2s;
+
+    
+
+
+
+   }}
+
+   @media screen and (max-width: 680px)
+{  .main-header{
+    font-size: 19px;
+}}
